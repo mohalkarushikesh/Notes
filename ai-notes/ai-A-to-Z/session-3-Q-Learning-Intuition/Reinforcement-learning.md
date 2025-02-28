@@ -22,14 +22,7 @@
 
 #### **2. Markov Decision Process (MDP)**
 - **Definition**: An MDP is a mathematical framework for modeling decision-making in environments where outcomes are partly random and partly controlled by the agent.
-- **Components**: \( (S, A, P, R, \gamma) \):
-  - \(S\): Set of states.
-  - \(A\): Set of actions.
-  - \(P(s'|s, a)\): Transition probability to next state \(s'\) given state \(s\) and action \(a\).
-  - \(R(s, a)\): Reward function.
-  - \(\gamma\): Discount factor.
-- ![image](https://github.com/user-attachments/assets/ec96d177-6c4d-47b5-8cad-e01d11df4296)
-
+![image](https://github.com/user-attachments/assets/d1810454-15f6-494b-a7cb-84baa7c4ac48)
 
 #### **Reference**
 - **Paper**: "A Survey of Applications of Markov Decision Processes" by D.J. White (1993) explores MDPs in various domains.
@@ -39,7 +32,7 @@
 ### **Bellman Equation**
 #### **Definition**
 - The **Bellman Equation** is based on the **principle of optimality**: The optimal value of a state is the immediate reward plus the discounted optimal value of the next state.
-![image](https://github.com/user-attachments/assets/9ecc9634-2f56-4e45-996a-3976216fb4f6)
+![image](https://github.com/user-attachments/assets/84e007d8-8d79-4b8d-a7a5-e8aa657794f5)
 
 
 #### **Reference**
@@ -51,17 +44,7 @@
 ---
 
 ### **Policy vs. Plan**
-- **Policy (\(\pi\))**: A mapping from states to actions (\(\pi(s) \to a\)) or probabilities (\(\pi(a|s)\)). It’s dynamic and adaptive.
-  - **Deterministic**: \(a = \pi(s)\).
-  - **Stochastic**: \(P(a|s) = \pi(a|s)\).
-- **Plan**: A fixed sequence of actions, less flexible than a policy. RL favors policies for adaptability in uncertain environments.
-
-#### **Adding a Living Penalty**
-- Introduce a small negative reward (e.g., \(-0.01\)) per step to discourage infinite loops or delays, encouraging efficiency:
-  \[
-  R(s, a) = R_{\text{task}}(s, a) - 0.01
-  \]
-
+![image](https://github.com/user-attachments/assets/966b455f-c10a-41c5-a6ef-f315fb71a856)
 ---
 
 ### **Q-Learning Intuition**
@@ -69,13 +52,8 @@
 - **Q-Learning** is a model-free, off-policy RL algorithm that learns the optimal action-value function \(Q^*(s, a)\) without needing the transition model \(P(s'|s, a)\).
 
 #### **Update Rule**
-- Based on Temporal Difference (TD) learning:
-  \[
-  Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right]
-  \]
-  - \(\alpha\): Learning rate (step size).
-  - \(r\): Immediate reward.
-  - \(\max_{a'} Q(s', a')\): Best future value estimate.
+![image](https://github.com/user-attachments/assets/6b5b8a9f-df1a-4cab-973b-f331fc2bb1e4)
+
 
 #### **Intuition**
 - The agent explores (e.g., via \(\epsilon\)-greedy: random action with probability \(\epsilon\)) and updates \(Q\) based on observed rewards and future estimates.
@@ -89,10 +67,8 @@
 ### **Temporal Difference (TD) Learning**
 #### **Definition**
 - **TD Learning** combines ideas from dynamic programming and Monte Carlo methods, updating value estimates based on the difference between predicted and actual outcomes:
-  \[
-  V(s) \leftarrow V(s) + \alpha [r + \gamma V(s') - V(s)]
-  \]
-  - **TD Error**: \( r + \gamma V(s') - V(s) \).
+ ![image](https://github.com/user-attachments/assets/1df4fafd-0c0b-41a9-99c7-1249024f0a63)
+
 
 #### **Key Insight**
 - Updates occur immediately after each step, unlike Monte Carlo (which waits for episode end), making it more responsive in ongoing tasks.
