@@ -8,8 +8,8 @@
 - **Goal**: Learn an optimal **policy** (strategy) that dictates the best action to take in each situation to maximize long-term reward.
 
 #### **References**
-- **Blog**: "Simple RL with TensorFlow" by Arthur Juliani (2016) introduces RL with Q-learning, tables, and neural networks.
-- **Research Paper**: "Reinforcement Learning: An Introduction" by Richard Sutton and Andrew Barto (1998) is a seminal work formalizing RL concepts.
+- **Blog**: ["Simple RL with TensorFlow" by Arthur Juliani (2016)](https://awjuliani.medium.com/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0) introduces RL with Q-learning, tables, and neural networks.
+- **Research Paper**: ["Reinforcement Learning: An Introduction" by Richard Sutton and Andrew Barto (1998)](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) is a seminal work formalizing RL concepts.
 
 ---
 
