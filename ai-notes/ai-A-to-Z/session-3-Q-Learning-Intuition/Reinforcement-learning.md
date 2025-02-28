@@ -22,6 +22,7 @@
 
 #### **2. Markov Decision Process (MDP)**
 - **Definition**: An MDP is a mathematical framework for modeling decision-making in environments where outcomes are partly random and partly controlled by the agent.
+
 ![image](https://github.com/user-attachments/assets/d1810454-15f6-494b-a7cb-84baa7c4ac48)
 
 #### **Reference**
@@ -32,6 +33,7 @@
 ### **Bellman Equation**
 #### **Definition**
 - The **Bellman Equation** is based on the **principle of optimality**: The optimal value of a state is the immediate reward plus the discounted optimal value of the next state.
+  
 ![image](https://github.com/user-attachments/assets/84e007d8-8d79-4b8d-a7a5-e8aa657794f5)
 
 
@@ -44,7 +46,9 @@
 ---
 
 ### **Policy vs. Plan**
+
 ![image](https://github.com/user-attachments/assets/966b455f-c10a-41c5-a6ef-f315fb71a856)
+
 ---
 
 ### **Q-Learning Intuition**
@@ -52,6 +56,7 @@
 - **Q-Learning** is a model-free, off-policy RL algorithm that learns the optimal action-value function \(Q^*(s, a)\) without needing the transition model \(P(s'|s, a)\).
 
 #### **Update Rule**
+
 ![image](https://github.com/user-attachments/assets/6b5b8a9f-df1a-4cab-973b-f331fc2bb1e4)
 
 
@@ -67,6 +72,7 @@
 ### **Temporal Difference (TD) Learning**
 #### **Definition**
 - **TD Learning** combines ideas from dynamic programming and Monte Carlo methods, updating value estimates based on the difference between predicted and actual outcomes:
+  
  ![image](https://github.com/user-attachments/assets/1df4fafd-0c0b-41a9-99c7-1249024f0a63)
 
 
