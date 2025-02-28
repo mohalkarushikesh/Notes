@@ -43,7 +43,7 @@
 #### **Visualization**
 - See the Bellman Equation images you referenced (e.g., updated form with summation over \(s'\)), which illustrate the recursive breakdown of value into immediate and future components.
 
-![image](https://github.com/user-attachments/assets/18c92c06-b52a-460c-83be-3c3184ca35ee)
+![image](https://github.com/user-attachments/assets/77029202-669d-4f01-80ad-79d79989990d)
 
 ---
 
