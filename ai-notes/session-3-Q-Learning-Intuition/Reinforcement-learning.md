@@ -13,8 +13,9 @@ Bellman Equation
         a-Action
         R-Reward
         gamma-Discount
-        ![image](https://github.com/user-attachments/assets/8fd50463-a819-4f9f-b8b4-a28f3ed84d2e)
-    
+        ![{5DD3D2F9-F15D-4D46-AAD1-7058D777DDAB}](https://github.com/user-attachments/assets/342cb01f-334e-4b61-bab7-acd710bf4702)
+        ![image](https://github.com/user-attachments/assets/18c92c06-b52a-460c-83be-3c3184ca35ee)
+
 The Plan
 Markon Decision process(MDP)
 Policy vs Plan
