@@ -8,7 +8,13 @@ what is RL?
     read: RL introduction by richard sutton (1998) (https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 
 Bellman Equation
-
+    concepts: 
+        s-State
+        a-Action
+        R-Reward
+        gamma-Discount
+        ![image](https://github.com/user-attachments/assets/8fd50463-a819-4f9f-b8b4-a28f3ed84d2e)
+    
 The Plan
 Markon Decision process(MDP)
 Policy vs Plan
