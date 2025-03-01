@@ -3,13 +3,13 @@
 ---
 
 ### **What is Reinforcement Learning (RL)?**
-- **Definition**: Reinforcement Learning is a type of machine learning where an **agent** learns to make decisions by interacting with an **environment**. The agent performs **actions**, receives **rewards** or **penalties**, and aims to maximize the cumulative reward over time.
-- **Analogy**: It’s like training a dog—give treats for good behavior (positive reward) and withhold them for bad behavior (negative or zero reward). Over time, the dog learns the best actions through trial and error.
-- **Goal**: Learn an optimal **policy** (strategy) that dictates the best action to take in each situation to maximize long-term reward.
-
+  - Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions and receiving rewards or penalties.
+  - The goal is to maximize the total reward over time by learning the best actions to take in different situations.
+  - It's like training a dog with treats for good behavior!
+  
 #### **Additional Learning**
-- **Blog**: ["Simple RL with TensorFlow" by Arthur Juliani (2016)](https://awjuliani.medium.com/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0) introduces RL with Q-learning, tables, and neural networks.
-- **Research Paper**: ["Reinforcement Learning: An Introduction" by Richard Sutton and Andrew Barto (1998)](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) is a seminal work formalizing RL concepts.
+  - **Blog**: [Simple RL with Tensorflow by Arthur Juliani (2016)](https://awjuliani.medium.com/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
+  - **Research Paper**: [RL Introduction by Richard Sutton (1998)](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 
 ---
 
@@ -26,7 +26,7 @@
 ![image](https://github.com/user-attachments/assets/d1810454-15f6-494b-a7cb-84baa7c4ac48)
 
 #### **Additional Learning**
-- **Paper**: "A Survey of Applications of Markov Decision Processes" by D.J. White (1993) explores MDPs in various domains.
+- **Research Paper**: "A Survey of Applications of Markov Decision Processes" by D.J. White (1993) explores MDPs in various domains.
 
 ---
 
@@ -42,7 +42,7 @@
 
 
 #### **Additional Learning**
-- **Paper**: "The Theory of Dynamic Programming" by Richard Bellman (1954) introduces this recursive formulation.
+- **Research Paper**: [The Theory of Dynamic Programming by Richard Bellman (1954)](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) 
 
 #### **Visualization**
 - See the Bellman Equation images you referenced (e.g., updated form with summation over \(s'\)), which illustrate the recursive breakdown of value into immediate and future components.
