@@ -73,6 +73,8 @@
 #### **Example (Table-Based)**
 - From Juliani’s blog: A grid-world where \(Q(s, a)\) is stored in a table, updated as the agent navigates.
 
+#### Additional learning
+- Markov Decision Process Concepts and Algorithms by Martijn van Otterlo (2009)
 ---
 
 ### **Temporal Difference (TD) Learning**
