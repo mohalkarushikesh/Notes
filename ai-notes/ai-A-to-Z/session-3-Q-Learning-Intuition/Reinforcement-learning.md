@@ -36,6 +36,10 @@
   
 ![image](https://github.com/user-attachments/assets/84e007d8-8d79-4b8d-a7a5-e8aa657794f5)
 
+![image](https://github.com/user-attachments/assets/28ad7903-314c-43ac-b104-845177034d1f)
+
+![image](https://github.com/user-attachments/assets/16e14c35-eb8c-406d-85c8-85c1e3b40992)
+
 
 #### **Reference**
 - **Paper**: "The Theory of Dynamic Programming" by Richard Bellman (1954) introduces this recursive formulation.
