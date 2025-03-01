@@ -53,12 +53,6 @@ Eigenvalues and eigenvectors describe the intrinsic properties of a matrix, ofte
 
 ![image](https://github.com/user-attachments/assets/31fdb941-7555-4a33-aeb5-da65cb5a1721)
 
----
-
-### Example: Neural Network Layer
-For a layer with input \( \mathbf{x} \) ( \( d \times 1 \) ), weights \( W \) ( \( m \times d \) ), and bias \( \mathbf{b} \) ( \( m \times 1 \) ):
-- Output: \( \mathbf{y} = W \mathbf{x} + \mathbf{b} \).
-- If \( W \) has eigenvectors \( \mathbf{v}_i \) and eigenvalues \( \lambda_i \), the transformation’s behavior (e.g., stretching, compressing) is governed by these values.
 
 ---
 
