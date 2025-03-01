@@ -226,3 +226,6 @@ Q-Learning, in both its tabular and deep forms, is a foundational algorithm, but
 ---
 
 This annex provides a toolkit of enhancements to supercharge your Q-Learning implementation. If you’d like a detailed walkthrough of implementing one (e.g., Dueling DQN in code) or have a specific variant in mind for "Annex 2," just let me know!
+
+Additional Learning
+Article : Adaptive E-greedy Exploration in RL based on value differences by Michel Tokic (2010)
