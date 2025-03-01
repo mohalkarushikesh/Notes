@@ -26,8 +26,7 @@
 ![image](https://github.com/user-attachments/assets/d1810454-15f6-494b-a7cb-84baa7c4ac48)
 
 #### **Additional Learning**
-- **Research Paper**: "A Survey of Applications of Markov Decision Processes" by D.J. White (1993) explores MDPs in various domains.
-
+- **Research Paper**: "A Survey of Applications of Markov Decision Processes" by D.J. White (1993) 
 ---
 
 ### **Bellman Equation**
