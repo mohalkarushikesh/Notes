@@ -7,7 +7,7 @@
 - **Analogy**: It’s like training a dog—give treats for good behavior (positive reward) and withhold them for bad behavior (negative or zero reward). Over time, the dog learns the best actions through trial and error.
 - **Goal**: Learn an optimal **policy** (strategy) that dictates the best action to take in each situation to maximize long-term reward.
 
-#### **More info**
+#### **Additional Learning**
 - **Blog**: ["Simple RL with TensorFlow" by Arthur Juliani (2016)](https://awjuliani.medium.com/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0) introduces RL with Q-learning, tables, and neural networks.
 - **Research Paper**: ["Reinforcement Learning: An Introduction" by Richard Sutton and Andrew Barto (1998)](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) is a seminal work formalizing RL concepts.
 
@@ -25,7 +25,7 @@
 
 ![image](https://github.com/user-attachments/assets/d1810454-15f6-494b-a7cb-84baa7c4ac48)
 
-#### **Reference**
+#### **Additional Learning**
 - **Paper**: "A Survey of Applications of Markov Decision Processes" by D.J. White (1993) explores MDPs in various domains.
 
 ---
@@ -41,7 +41,7 @@
 ![image](https://github.com/user-attachments/assets/eae2eb56-98d0-4c2a-aaea-1aa2fdd37aa4)
 
 
-#### **Reference**
+#### **Additional Learning**
 - **Paper**: "The Theory of Dynamic Programming" by Richard Bellman (1954) introduces this recursive formulation.
 
 #### **Visualization**
@@ -90,7 +90,7 @@
 #### **Connection to Q-Learning**
 - Q-Learning is a form of TD learning applied to action-values.
 
-#### Additional learning
+#### **Additional Learning**
 - Learning to predict by the Methods of Temporal Differences by Richard Sutton (1988)
 ---
 
