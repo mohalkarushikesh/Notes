@@ -90,6 +90,8 @@
 #### **Connection to Q-Learning**
 - Q-Learning is a form of TD learning applied to action-values.
 
+#### Additional learning
+- Learning to predict by the Methods of Temporal Differences by Richard Sutton (1988)
 ---
 
 ### **Q-Learning Visualization**
